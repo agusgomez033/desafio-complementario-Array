@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Casa de Cambio Argentina </title>
+
+        <script src="simulador1.js">
+
+        </script>
+
+    </head>
+    <body>
+        <center><i><h3>CASA DE CAMBIO ARGENTINA</h3></i></center>
+        <form class="fomulario">
+            <center><b><p>Bienvenido/a!</p></b></center>
+            <center><b><p>Seleccionar la moneda a cambiar:</p></b></center>
+            <center><input type="radio" name="cambio" id="uno">Dólar
+            <input type="radio" name="cambio" id="dos">Euro
+            <input type="radio" name="cambio" id="tres">Real
+            <b><p>Ingrese monto en pesos:</p></b>
+            <input type="number" id="valor" min="1" max="100000">
+            <input type="button" id="cotizador" value="Enviar" onclick="convertir()">
+        </center>
+        </form>
+    </body>
+</html>
